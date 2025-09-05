@@ -39,10 +39,10 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - {t: BACKSPACE, h: ARROW_NUM}
-  - {t: SPACE, h: SYMBOL}
-  - {t: INT MUHENKAN, h: FUNCTION}
-  - {t: INT HENKAN, h: ARROW_NUM}
-  - {t: ENTER, h: SYMBOL}
+  - {t: INT MUHENKAN, h: SYMBOL}
+  - {t: SPACE, h: FUNCTION}
+  - {t: ENTER, h: ARROW_NUM}
+  - {t: INT HENKAN, h: SYMBOL}
   - DEL
   ARROW_NUM:
   - ESCAPE
@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: INT MUHENKAN, h: BT_CONFIG}
+  - {t: SPACE, h: BT_CONFIG}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -171,7 +171,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: SPACE, h: BT_CONFIG}
+  - {t: INT MUHENKAN, h: BT_CONFIG}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

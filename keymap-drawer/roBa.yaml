@@ -187,7 +187,7 @@ layers:
   - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCTRL
   - '&mkp MB2'
   - '&mkp MB3'
   - '&mkp MB1'

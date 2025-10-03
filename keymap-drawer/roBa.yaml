@@ -145,9 +145,9 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: default, h: toggle}
+  - {t: QWERTY, h: toggle}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: QWERTY, h: sticky}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
@@ -323,7 +323,7 @@ layers:
   - S
   - D
   - F
-  - {t: G, type: held}
+  - G
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - H
@@ -348,7 +348,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

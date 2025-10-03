@@ -146,7 +146,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: QWERTY, h: toggle}
+  - {t: WASD, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -308,7 +308,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
-  QWERTY:
+  WASD:
   - ESC
   - Q
   - W
@@ -319,7 +319,7 @@ layers:
   - ''
   - ''
   - ''
-  - LSHFT
+  - TAB
   - A
   - S
   - D
@@ -331,7 +331,7 @@ layers:
   - ''
   - ''
   - ''
-  - LCTRL
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -343,6 +343,7 @@ layers:
   - ''
   - ''
   - ''
+  - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -350,8 +351,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: QWERTY, h: toggle}
+  - {t: WASD, h: toggle}
 combos:
 - p: [12, 13]
   k: INT MUHENKAN

@@ -137,10 +137,10 @@
 
         QWERTY {
             bindings = <
-&kp Q   &kp W   &kp E   &kp R   &kp T                       &kp Y   &kp U  &kp I      &kp O    &kp P
-&kp A   &kp S   &kp D   &kp F   &kp G   &trans      &trans  &kp H   &kp J  &kp K      &kp L    &kp SEMI
-&kp Z   &kp X   &kp C   &kp V   &kp B   &trans      &trans  &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                             &trans
+&kp ESC    &kp Q   &kp W   &kp E   &kp R                        &none   &none  &none  &none  &none
+&kp LSHFT  &kp A   &kp S   &kp D   &kp F   &none        &trans  &none   &none  &none  &none  &none
+&kp LCTRL  &kp Z   &kp X   &kp C   &kp V   &kp END      &trans  &none   &none  &none  &none  &none
+&trans     &trans  &trans  &trans  &trans  &trans       &trans  &trans                       &tog 7
             >;
         };
     };

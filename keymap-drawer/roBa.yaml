@@ -145,7 +145,7 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
   - {t: QWERTY, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

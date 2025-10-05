@@ -346,9 +346,9 @@ layers:
   - {t: WASD, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACKSPACE
+  - SPACE
+  - INT MUHENKAN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: WASD, h: toggle}

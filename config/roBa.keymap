@@ -137,10 +137,10 @@
 
         WASD {
             bindings = <
-&kp ESC         &kp Q   &kp W   &kp E   &kp R                        &none   &none  &none  &none  &none
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D   &kp F   &none        &trans  &none   &none  &none  &none  &none
-&kp LCTRL       &kp Z   &kp X   &kp C   &kp V   &kp END      &trans  &none   &none  &none  &none  &none
-&tog 7          &trans  &trans  &trans  &trans  &trans       &trans  &trans                       &tog 7
+&kp ESC         &kp Q   &kp W   &kp E          &kp R                                    &none   &none  &none  &none  &none
+&kp LEFT_SHIFT  &kp A   &kp S   &kp D          &kp F      &none                 &trans  &none   &none  &none  &none  &none
+&kp LCTRL       &kp Z   &kp X   &kp C          &kp V      &kp END               &trans  &none   &none  &none  &none  &none
+&tog 7          &trans  &trans  &kp BACKSPACE  &kp SPACE  &kp INT_MUHENKAN      &trans  &trans                       &tog 7
             >;
         };
     };

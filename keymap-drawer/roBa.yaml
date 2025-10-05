@@ -343,12 +343,12 @@ layers:
   - ''
   - ''
   - ''
+  - {t: WASD, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: INT MUHENKAN, h: FUNCTION}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: WASD, h: toggle}

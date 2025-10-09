@@ -30,12 +30,12 @@
         compatible = "zmk,combos";
 
         Muhenkan {
-            bindings = <&kp INT_MUHENKAN>;
+            bindings = <&to_layer_0 INT_MUHENKAN>;
             key-positions = <12 13>;
         };
 
         Kana {
-            bindings = <&kp INT_KANA>;
+            bindings = <&to_layer_0 INT_KANA>;
             key-positions = <19 18>;
         };
     };
@@ -110,10 +110,10 @@
 
         MOUSE {
             bindings = <
-&trans     &trans     &mkp MB4   &mkp MB5   &trans                      &trans  &mkp MB4  &mkp MB5  &trans    &trans
-&kp LCTRL  &mkp MB2   &mkp MB3   &mkp MB1   &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans     &trans     &trans     &trans     &trans  &trans      &trans  &trans                                &trans
+&to_layer_0 L      &to_layer_0 L         &mkp MB4              &mkp MB5       &to_layer_0 DOT                                    &to_layer_0 F  &mkp MB4       &mkp MB5       &to_layer_0 Y  &to_layer_0 P
+&to_layer_0 E      &mkp MB2              &mkp MB3              &mkp MB1       &to_layer_0 MINUS  &trans      &to_layer_0 TAB     &to_layer_0 K  &mkp MB1       &mkp MB3       &mkp MB2       &to_layer_0 H
+&to_layer_0 Z      &to_layer_0 X         &to_layer_0 C         &to_layer_0 V  &to_layer_0 SLASH  &trans      &to_layer_0 ESCAPE  &to_layer_0 G  &to_layer_0 D  &to_layer_0 M  &to_layer_0 J  &to_layer_0 B
+&to_layer_0 LCTRL  &to_layer_0 LEFT_GUI  &to_layer_0 LEFT_ALT  &trans         &trans             &trans      &trans              &trans                                                      &to_layer_0 DELETE
             >;
         };
 

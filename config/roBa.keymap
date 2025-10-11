@@ -73,7 +73,7 @@
         default_layer {
             bindings = <
 &kp Q             &lt 5 L       &kp U           &kp COMMA         &kp PERIOD                                             &kp F        &kp W              &kp R            &lt 5 Y      &kp P
-&kp E             &mt LCTRL I   &mt LEFT_ALT A  &mt LEFT_SHIFT O  &kp MINUS    &kp LG(TAB)             &kp TAB           &kp K        &mt RIGHT_SHIFT T  &mt RIGHT_ALT N  &mt RCTRL S  &kp H
+&mt LCTRL E       &mt LCTRL I   &mt LEFT_ALT A  &mt LEFT_SHIFT O  &kp MINUS    &kp LG(TAB)             &kp TAB           &kp K        &mt RIGHT_SHIFT T  &mt RIGHT_ALT N  &mt RCTRL S  &mt RCTRL H
 &kp Z             &kp X         &kp C           &kp V             &kp SLASH    &td_home_end            &kp ESC           &kp G        &kp D              &kp M            &kp J        &kp B
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT    &lt 2 BACKSPACE   &lt 1 SPACE  &lt 3 INT_MUHENKAN      &lt 2 INT_HENKAN  &lt 1 ENTER                                                   &kp DEL
             >;
@@ -110,10 +110,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 L      &to_layer_0 L         &mkp MB4              &mkp MB5       &to_layer_0 DOT                                    &to_layer_0 F  &mkp MB4       &mkp MB5       &to_layer_0 Y  &to_layer_0 P
-&to_layer_0 E      &mkp MB2              &mkp MB3              &mkp MB1       &to_layer_0 MINUS  &trans      &to_layer_0 TAB     &to_layer_0 K  &mkp MB1       &mkp MB3       &mkp MB2       &to_layer_0 H
-&to_layer_0 Z      &to_layer_0 X         &to_layer_0 C         &to_layer_0 V  &to_layer_0 SLASH  &trans      &to_layer_0 ESCAPE  &to_layer_0 G  &to_layer_0 D  &to_layer_0 M  &to_layer_0 J  &to_layer_0 B
-&to_layer_0 LCTRL  &to_layer_0 LEFT_GUI  &to_layer_0 LEFT_ALT  &trans         &trans             &trans      &trans              &trans                                                      &to_layer_0 DELETE
+&to_layer_0 Q      &lt_to_layer_0 5 L    &mkp MB4              &mkp MB5                    &to_layer_0 DOT                                                                         &to_layer_0 F           &mkp MB4       &mkp MB5       &lt_to_layer_0 5 Y  &to_layer_0 P
+&trans             &mkp MB2              &mkp MB3              &mkp MB1                    &to_layer_0 MINUS       &trans                             &to_layer_0 TAB              &to_layer_0 K           &mkp MB1       &mkp MB3       &mkp MB2            &trans
+&to_layer_0 Z      &to_layer_0 X         &to_layer_0 C         &to_layer_0 V               &to_layer_0 SLASH       &trans                             &to_layer_0 ESCAPE           &to_layer_0 G           &to_layer_0 D  &to_layer_0 M  &to_layer_0 J       &to_layer_0 B
+&to_layer_0 LCTRL  &to_layer_0 LEFT_GUI  &to_layer_0 LEFT_ALT  &lt_to_layer_0 2 BACKSPACE  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt_to_layer_0 2 INT_HENKAN  &lt_to_layer_0 1 ENTER                                                    &to_layer_0 DELETE
             >;
         };
 

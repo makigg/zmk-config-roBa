@@ -16,7 +16,7 @@ layers:
   - {t: A, h: LEFT ALT}
   - {t: O, h: LEFT SHIFT}
   - '-'
-  - Gui+TAB
+  - ESC
   - TAB
   - K
   - {t: T, h: RIGHT SHIFT}
@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - /
-  - '&td_home_end'
-  - ESC
+  - HOME
+  - END
   - G
   - D
   - M
@@ -192,7 +192,7 @@ layers:
   - '&mkp MB3'
   - '&mkp MB1'
   - '&to_layer_0 MINUS'
-  - {t: ▽, type: trans}
+  - '&to_layer_0 ESCAPE'
   - '&to_layer_0 TAB'
   - '&to_layer_0 K'
   - '&mkp MB1'
@@ -204,8 +204,8 @@ layers:
   - '&to_layer_0 C'
   - '&to_layer_0 V'
   - '&to_layer_0 SLASH'
-  - {t: ▽, type: trans}
-  - '&to_layer_0 ESCAPE'
+  - '&to_layer_0 HOME'
+  - '&to_layer_0 END'
   - '&to_layer_0 G'
   - '&to_layer_0 D'
   - '&to_layer_0 M'

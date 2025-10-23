@@ -112,9 +112,9 @@ layers:
   - {t: '6', h: RCTRL}
   - +
   - {t: ▽, type: trans}
-  - Gui+Sft+LEFT ARROW
   - {t: ▽, type: trans}
-  - Gui+Sft+RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

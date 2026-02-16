@@ -94,11 +94,11 @@ layers:
   - UP ARROW
   - END
   - {t: ▽, type: trans}
-  - /
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
-  - '-'
+  - /
   - LGUI
   - LEFT ARROW
   - DOWN ARROW
@@ -106,11 +106,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '*'
+  - {t: RIGHT GUI, h: ','}
   - {t: '4', h: LEFT SHIFT}
   - {t: '5', h: RIGHT ALT}
   - {t: '6', h: RCTRL}
-  - +
+  - {t: RCTRL, h: ':'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

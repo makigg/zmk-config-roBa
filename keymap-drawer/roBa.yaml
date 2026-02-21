@@ -65,8 +65,8 @@ layers:
   - /
   - {t: (, h: LEFT SHIFT}
   - {t: ), h: RIGHT ALT}
-  - {t: ':', h: LCTRL}
-  - ;
+  - {t: ;, h: LCTRL}
+  - ':'
   - +
   - ^
   - '~'

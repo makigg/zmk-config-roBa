@@ -81,10 +81,10 @@
 
         SYMBOL {
             bindings = <
-&kp AT_SIGN   &kp GRAVE            &kp QUESTION       &kp EXCLAMATION       &none                                           &kp BACKSLASH  &kp LEFT_BRACE                   &kp RIGHT_BRACE                  &kp LESS_THAN     &kp GREATER_THAN
-&kp ASTERISK  &mt RCTRL AMPERSAND  &mt LEFT_ALT PIPE  &mt LEFT_SHIFT EQUAL  &kp UNDERSCORE  &trans                  &trans  &kp SLASH      &mt LEFT_SHIFT LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt LCTRL COLON   &kp SEMICOLON
-&kp PLUS      &kp CARET            &kp TILDE          &kp DOLLAR            &kp PERCENT     &trans                  &trans  &kp HASH       &kp LEFT_BRACKET                 &kp RIGHT_BRACKET                &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
-&trans        &trans               &trans             &trans                &trans          &lt 6 INT_MUHENKAN      &trans  &trans                                                                                             &trans
+&kp AT_SIGN   &kp GRAVE            &kp QUESTION       &kp EXCLAMATION       &none                                           &kp BACKSLASH  &kp LEFT_BRACE                   &kp RIGHT_BRACE                  &kp LESS_THAN        &kp GREATER_THAN
+&kp ASTERISK  &mt RCTRL AMPERSAND  &mt LEFT_ALT PIPE  &mt LEFT_SHIFT EQUAL  &kp UNDERSCORE  &trans                  &trans  &kp SLASH      &mt LEFT_SHIFT LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt LCTRL SEMICOLON  &kp COLON
+&kp PLUS      &kp CARET            &kp TILDE          &kp DOLLAR            &kp PERCENT     &trans                  &trans  &kp HASH       &kp LEFT_BRACKET                 &kp RIGHT_BRACKET                &kp SINGLE_QUOTE     &kp DOUBLE_QUOTES
+&trans        &trans               &trans             &trans                &trans          &lt 6 INT_MUHENKAN      &trans  &trans                                                                                                &trans
             >;
         };
 

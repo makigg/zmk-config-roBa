@@ -39,10 +39,10 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - {t: BACKSPACE, h: ARROW_NUM}
-  - {t: ENTER, h: SYMBOL}
+  - {t: SPACE, h: SYMBOL}
   - {t: INT MUHENKAN, h: FUNCTION}
   - {t: INT HENKAN, h: ARROW_NUM}
-  - {t: SPACE, h: SYMBOL}
+  - {t: ENTER, h: SYMBOL}
   - DEL
   SYMBOL:
   - '@'
@@ -171,7 +171,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ENTER, h: BT_CONFIG}
+  - {t: SPACE, h: BT_CONFIG}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -215,10 +215,10 @@ layers:
   - '&to_layer_0 LEFT_GUI'
   - '&to_layer_0 LEFT_ALT'
   - {t: '&to_layer_0 BACKSPACE', h: ARROW_NUM}
-  - {t: '&to_layer_0 ENTER', h: SYMBOL}
+  - {t: '&to_layer_0 SPACE', h: SYMBOL}
   - {t: '&to_layer_0 INT_MUHENKAN', h: FUNCTION}
   - {t: '&to_layer_0 INT_HENKAN', h: ARROW_NUM}
-  - {t: '&to_layer_0 SPACE', h: SYMBOL}
+  - {t: '&to_layer_0 ENTER', h: SYMBOL}
   - '&to_layer_0 DELETE'
   SCROLL:
   - {t: ▽, type: trans}

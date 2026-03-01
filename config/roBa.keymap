@@ -75,7 +75,7 @@
 &kp Q             &lt 5 L       &kp U           &kp COMMA         &kp PERIOD                                             &kp F        &kp W              &kp R            &lt 5 Y      &kp P
 &mt LCTRL E       &mt LCTRL I   &mt LEFT_ALT A  &mt LEFT_SHIFT O  &kp MINUS    &kp ESC                 &kp TAB           &kp K        &mt RIGHT_SHIFT T  &mt RIGHT_ALT N  &mt RCTRL S  &mt RCTRL H
 &kp Z             &kp X         &kp C           &kp V             &kp SLASH    &kp HOME                &kp END           &kp G        &kp D              &kp M            &kp J        &kp B
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT    &lt 2 BACKSPACE   &lt 1 ENTER  &lt 3 INT_MUHENKAN      &lt 2 INT_HENKAN  &lt 1 SPACE                                                   &kp DEL
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT    &lt 2 BACKSPACE   &lt 1 SPACE  &lt 3 INT_MUHENKAN      &lt 2 INT_HENKAN  &lt 1 ENTER                                                   &kp DEL
             >;
         };
 
@@ -102,7 +102,7 @@
 &trans  &trans  &trans  &trans  &trans                           &none   &kp F9  &kp F10  &kp F11  &kp F12
 &trans  &trans  &trans  &trans  &trans       &trans      &trans  &none   &kp F5  &kp F6   &kp F7   &kp F8
 &trans  &trans  &trans  &trans  &trans       &trans      &trans  &none   &kp F1  &kp F2   &kp F3   &kp F4
-&tog 7  &trans  &trans  &trans  &lt 6 ENTER  &trans      &trans  &trans                            &trans
+&tog 7  &trans  &trans  &trans  &lt 6 SPACE  &trans      &trans  &trans                            &trans
             >;
         };
 
@@ -111,7 +111,7 @@
 &to_layer_0 Q      &lt_to_layer_0 5 L    &mkp MB4              &trans                      &to_layer_0 DOT                                                                         &to_layer_0 F           &trans         &mkp MB4       &lt_to_layer_0 5 Y  &to_layer_0 P
 &trans             &mkp MB2              &mkp MB3              &mkp MB1                    &to_layer_0 MINUS       &to_layer_0 ESCAPE                 &to_layer_0 TAB              &to_layer_0 K           &mkp MB1       &mkp MB3       &mkp MB2            &trans
 &to_layer_0 Z      &to_layer_0 X         &to_layer_0 C         &to_layer_0 V               &to_layer_0 SLASH       &to_layer_0 HOME                   &to_layer_0 END              &to_layer_0 G           &to_layer_0 D  &to_layer_0 M  &to_layer_0 J       &to_layer_0 B
-&to_layer_0 LCTRL  &to_layer_0 LEFT_GUI  &to_layer_0 LEFT_ALT  &lt_to_layer_0 2 BACKSPACE  &lt_to_layer_0 1 ENTER  &lt_to_layer_0 3 INT_MUHENKAN      &lt_to_layer_0 2 INT_HENKAN  &lt_to_layer_0 1 SPACE                                                    &to_layer_0 DELETE
+&to_layer_0 LCTRL  &to_layer_0 LEFT_GUI  &to_layer_0 LEFT_ALT  &lt_to_layer_0 2 BACKSPACE  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt_to_layer_0 2 INT_HENKAN  &lt_to_layer_0 1 ENTER                                                    &to_layer_0 DELETE
             >;
         };
 
